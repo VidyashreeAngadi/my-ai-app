@@ -27,7 +27,7 @@ export default function Home() {
         if (input.trim() === '') return;
 
         // Add user's message to state
-        const userMessage = { text: input, sender: 'user' };
+        const userMessage = { text: input, sender: 'user' } as Message;
         setMessages(prevMessages => [...prevMessages, userMessage]);
 
         // Clear the input field
