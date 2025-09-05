@@ -1,4 +1,9 @@
 'use client';
+// Define the structure of a message object
+interface Message {
+  text: string;
+  sender: 'user' | 'bot';
+}
 
 import { useState } from 'react';
 import { Inter } from 'next/font/google';
@@ -10,7 +15,7 @@ export default function Home() {
     const [theme, setTheme] = useState('light');
 
     // State for the chat functionality
-    const [messages, setMessages] = useState([]);
+    const [messages, setMessages] = useState<Message[]>([]);
     const [input, setInput] = useState('');
 
     // State for the sliders
