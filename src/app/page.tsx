@@ -35,7 +35,7 @@ export default function Home() {
 
         // Simulate an AI response after a short delay
         setTimeout(() => {
-            const aiMessage = { text: "Hello! This is a mock AI response.", sender: 'ai' };
+            const aiMessage = { text: "Hello! This is a mock AI response.", sender: 'bot' };
             setMessages(prevMessages => [...prevMessages, aiMessage]);
         }, 1000);
     };
