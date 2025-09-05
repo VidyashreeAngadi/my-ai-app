@@ -14,7 +14,7 @@ Clone the repository from GitHub:
 
 Bash
 
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/VidyashreeAngadi/my-ai-app.git
 Navigate to the project directory:
 
 Bash
